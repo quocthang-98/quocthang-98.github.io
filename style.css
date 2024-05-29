@@ -1,0 +1,109 @@
+* {
+    font-family: "PT Serif", serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#page {
+    background-color: antiquewhite;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.document {
+    background-color: whitesmoke;
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.document-content {
+    background-color: transparent;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.document-content-header {
+    text-align: center;
+    margin-bottom: 2px;
+    line-height: 100%;
+}
+
+.document-content-header .name {
+    margin-bottom: 5px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+.complete-section {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
+.complete-section:hover {
+    transform: scale(1.06);
+}
+
+.document-content-header .phone-number {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.document-content-header .address {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.link {
+    display: inline-block;
+    margin-top: -2px;
+    font-size: 13px;
+}
+
+.document-content-body {
+    text-align: justify;
+    animation: fadeIn .5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;   
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.document-content-body .section {
+    margin: 0;
+    font-size: 18px;
+}
+
+.document-content-body .section.content {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.document-content-body .section.content.additional {
+    font-size: 12px;
+}
+
